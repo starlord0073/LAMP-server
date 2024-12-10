@@ -1,0 +1,7 @@
+PHP MY ADMIN
+
+1. yum install -y epel-release
+2. yum -y install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+3. yum --enablerepo=remi install phpmyadmin
+4. systemctl restart httpd
+5. in browser http://"ip"/phpmyadmin  or "ip"/phpmyadmin
